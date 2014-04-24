@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{7C65038C-1B2F-41E1-A629-BED71D161F6F}") = "Server", "Server\Server.irproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		compile|x86 = compile|x86
+		dll|x86 = dll|x86
+		run|x86 = run|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.compile|x86.ActiveCfg = compile|x86
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.compile|x86.Build.0 = compile|x86
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.dll|x86.ActiveCfg = dll|x86
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.dll|x86.Build.0 = dll|x86
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.run|x86.ActiveCfg = run|x86
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.run|x86.Build.0 = run|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
