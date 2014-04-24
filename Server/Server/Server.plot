@@ -18,7 +18,8 @@
 				(typelist System.Net.IPAddress)
 				(call ipHostInfo AddressList))
 			Item
-			0))
+			2))
+
 	(define port 11000)
 	(displayln  (cons '(starting on) (cons ip (cons '(and port) (cons port '())))))
 	(define family (call ip AddressFamily))
@@ -56,7 +57,7 @@
 		(lambda (sock) 
 			(send_message	
 				sock 
-				(scall System.String Format "{0}:      {1}" (call (call (call client RemoteEndPoint) ToString) Substring 0 29) (decode bytes))))
+				(scall System.String Format "{0}:      {1}" (call (call client RemoteEndPoint) ToString) (decode bytes))))
 		clist))
 
 (define (listen client)
